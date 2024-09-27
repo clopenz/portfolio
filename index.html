@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="css/main.css" />
+		<!-- Type Effect Tutorial: https://www.youtube.com/watch?v=PQX3dT-pB4E -->
+		<script src="js/typewriter.js" defer></script>
+		<title>Chris Lopez | Web Developer Portfolio</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header id="header-home">
+			<div class="container">
+				<nav id="main-nav">
+					<a href="index.html" class="logo-link"
+						><img src="img/logo.png" alt="My Portfolio" id="logo"
+					/></a>
+
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="header-content">
+					<h1>
+						<span class="txt-name">Chris Lopez</span>
+					</h1>
+					<h2>
+						<span
+							class="txt-type"
+							data-wait="3000"
+							data-words='["Web Development", "MERN Stack", "WordPress", "PHP & MySQL", "Frontend/Backend", "Node.js", "React, VueJS, Angular", "Bootstrap/Tailwind & SCSS", "Object-Oriented Programming"]'>
+						</span>
+					</h2>
+					<p class="lead">Aspiring Web Developer | My Portfolio</p>
+					<a href="#work-a" class="btn-light">View My Projects</a>
+				</div>
+			</div>
+		</header>
+
+		<!-- Section A: What I Study -->
+		<section id="home-a" class="text-center py-2">
+			<div class="container">
+				<h2 class="section-title">What I Study</h2>
+				<div class="bottom-line"></div>
+				<!-- <p class="lead">
+					Photography as well as creating digital masterpieces and UI/UX layout
+					for websites and mobile applications
+				</p> -->
+				<div class="specials">
+					<div>
+						<i class="fas fa-solid fa-code fa-2x"></i>
+						<h3>HTML, CSS, JavaScript</h3>
+						<p>
+							HTML, CSS, and JavaScript are the essential building blocks of any
+							website. I believe it's important to have a solid foundation on
+							each of these, and that is why I am committed to learning more.
+						</p>
+					</div>
+					<div>
+						<i class="fas fa-brands fa-react fa-2x"></i>
+						<h3>Frameworks & CMS</h3>
+						<p>
+							I have worked with various frameworks and content management
+							systems. Frameworks such as React and Angular, along with CMS
+							platforms like WordPress and Drupal, allow me to effectively build
+							dynamic websites.
+						</p>
+					</div>
+					<div>
+						<i class="fas fa-solid fa-server fa-2x"></i>
+						<h3>Server-Side Development</h3>
+						<p>
+							In addition to front-end development, I have also worked on
+							server-related tasks. Technologies like Node.js, Express.js, PHP,
+							MySQL, and MongoDB allowed me to work with databases, APIs, and
+							much more.
+						</p>
+					</div>
+					<div>
+						<i class="fas fa-solid fa-mobile-screen-button fa-2x"></i>
+						<h3>Mobile & Desktop Apps</h3>
+						<p>
+							I have worked on making applications that run on both mobile and
+							desktop environments. I understand the importance of having an
+							accessible and user-friendly application, making sure that colors,
+							sizes, and layouts are optimized for every user.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<hr class="line-default" />
+
+		<!-- Section B: Project Gallery -->
+		<section id="home-b" class="text-center py-3">
+			<div class="container">
+				<h2 class="section-title">My Projects</h2>
+				<div class="bottom-line"></div>
+				<p class="lead">
+					These projects highlight some of the many different technologies and
+					practices that I have used.
+				</p>
+				<div class="items">
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item1.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Design</p>
+								<h2 class="item-text-title">Great Gradients</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item2.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">UI/UX</p>
+								<h2 class="item-text-title">World Experience</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item3.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Photography & Design</p>
+								<h2 class="item-text-title">Vanishing</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item4.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Design</p>
+								<h2 class="item-text-title">Gap INC</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item5.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Mobile UI Design</p>
+								<h2 class="item-text-title">Face The Experience</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item6.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Design Concept</p>
+								<h2 class="item-text-title">Bezier Curves</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item7.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Photography</p>
+								<h2 class="item-text-title">Dock Ponder</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item8.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Web Applications</p>
+								<h2 class="item-text-title">Restaurant App</h2>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-image">
+							<img src="img/items/item9.png" alt="" />
+						</div>
+						<div class="item-text">
+							<div class="item-text-wrap">
+								<p class="item-text-category">Social Network Concept</p>
+								<h2 class="item-text-title">FriendFeed</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="main-footer">
+			<div class="footer-content container">
+				<p>&copy; 2024</p>
+				<div class="social">
+					<a href="mailto:clopenz@outlook.com"
+						><i class="fas fa-solid fa-envelope"></i
+					></a>
+					<a href="https://www.linkedin.com/in/chris-lopez-643245179/"
+						><i class="fab fa-linkedin"></i
+					></a>
+					<a href="https://github.com/clopenz"><i class="fab fa-github"></i></a>
+					<a
+						href="https://www.upwork.com/freelancers/~011ced9ea6ed5c4e8d?mp_source=share"
+						><i class="fab fa-upwork"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
