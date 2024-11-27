@@ -15,6 +15,7 @@
 			href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
 			rel="stylesheet" />
 		<link rel="stylesheet" href="css/main.css" />
+		<script src="js/toggle.js" defer></script>
 		<title>Contact Me | UI/UX Designer & Photographer</title>
 	</head>
 	<body>
@@ -25,11 +26,17 @@
 					<a href="index.html" class="logo-link"
 						><img src="img/logo.avif" alt="My Portfolio" id="logo"
 					/></a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html" class="current">Contact</a></li>
-					</ul>
+					<div class="link-wrapper">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html" class="current">Contact</a></li>
+						</ul>
+
+						<button class="theme-toggle">
+							<div></div>
+						</button>
+					</div>
 				</nav>
 			</div>
 		</header>
